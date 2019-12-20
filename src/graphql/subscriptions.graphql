@@ -1,0 +1,91 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateTodo {
+  onCreateTodo {
+    id
+    name
+    description
+    test {
+      id
+      name
+      description
+      todos {
+        nextToken
+      }
+    }
+  }
+}
+subscription OnUpdateTodo {
+  onUpdateTodo {
+    id
+    name
+    description
+    test {
+      id
+      name
+      description
+      todos {
+        nextToken
+      }
+    }
+  }
+}
+subscription OnDeleteTodo {
+  onDeleteTodo {
+    id
+    name
+    description
+    test {
+      id
+      name
+      description
+      todos {
+        nextToken
+      }
+    }
+  }
+}
+subscription OnCreateTest {
+  onCreateTest {
+    id
+    name
+    description
+    todos {
+      items {
+        id
+        name
+        description
+      }
+      nextToken
+    }
+  }
+}
+subscription OnUpdateTest {
+  onUpdateTest {
+    id
+    name
+    description
+    todos {
+      items {
+        id
+        name
+        description
+      }
+      nextToken
+    }
+  }
+}
+subscription OnDeleteTest {
+  onDeleteTest {
+    id
+    name
+    description
+    todos {
+      items {
+        id
+        name
+        description
+      }
+      nextToken
+    }
+  }
+}

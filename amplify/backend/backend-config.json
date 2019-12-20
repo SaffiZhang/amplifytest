@@ -1,0 +1,12 @@
+{
+	"auth": {},
+	"storage": {},
+	"api": {},
+	"function": {
+		"amplifytsc": {
+			"service": "Lambda",
+			"providerPlugin": "awscloudformation",
+			"build": true
+		}
+	}
+}
